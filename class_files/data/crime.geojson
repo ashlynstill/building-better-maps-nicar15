@@ -1,0 +1,2839 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213859",
+        "crime_id": "8184961",
+        "offense_id": "150450013",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "00:03:00",
+        "beat": "304",
+        "location": "1075 HILL ST SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Peoplestown",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37888,
+          33.72506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213860",
+        "crime_id": "8184962",
+        "offense_id": "150450013",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "00:03:00",
+        "beat": "304",
+        "location": "1075 HILL ST SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Peoplestown",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37888,
+          33.72506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213864",
+        "crime_id": "8184966",
+        "offense_id": "150450355",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "02:17:00",
+        "beat": "413",
+        "location": "2323 DANIEL RD SW",
+        "MaxOfnum_victims": "NULL",
+        "Shift": "Morn",
+        "neighborhood": "Fairburn",
+        "crime": "HOMICIDE",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.51854,
+          33.69192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213865",
+        "crime_id": "8184967",
+        "offense_id": "150450503",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "03:40:00",
+        "beat": "305",
+        "location": "1569 JONESBORO RD SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "South Atlanta",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38177,
+          33.71003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213866",
+        "crime_id": "8184968",
+        "offense_id": "150450503",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "03:40:00",
+        "beat": "305",
+        "location": "1569 JONESBORO RD SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "South Atlanta",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38177,
+          33.71003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213869",
+        "crime_id": "8184971",
+        "offense_id": "150450734",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "06:45:00",
+        "beat": "414",
+        "location": "3249 TELFORD TER SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Princeton Lakes",
+        "crime": "AGG ASSAULT",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.51547,
+          33.6644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213873",
+        "crime_id": "8184975",
+        "offense_id": "150450853",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "NULL",
+        "beat": "104",
+        "location": "1586 MIMS ST SW",
+        "MaxOfnum_victims": "NULL",
+        "Shift": "Morn",
+        "neighborhood": "Mozley Park",
+        "crime": "HOMICIDE",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.43943,
+          33.74951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213882",
+        "crime_id": "8184984",
+        "offense_id": "150451175",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "11:20:00",
+        "beat": "503",
+        "location": "1088 PEACHTREE ST NE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Midtown",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3835,
+          33.78421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213888",
+        "crime_id": "8184990",
+        "offense_id": "150451365",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "13:30:00",
+        "beat": "603",
+        "location": "537  BOULEVARD NE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Old Fourth Ward",
+        "crime": "AGG ASSAULT",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37156,
+          33.76891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213893",
+        "crime_id": "8184995",
+        "offense_id": "150451446",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "14:00:00",
+        "beat": "307",
+        "location": "1636 JONESBORO ROAD SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Day",
+        "neighborhood": "Lakewood Heights",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37976,
+          33.70722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213894",
+        "crime_id": "8184996",
+        "offense_id": "150451446",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "14:00:00",
+        "beat": "307",
+        "location": "1636 JONESBORO ROAD SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Day",
+        "neighborhood": "Lakewood Heights",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37976,
+          33.70722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213896",
+        "crime_id": "8184998",
+        "offense_id": "150451475",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "14:33:00",
+        "beat": "512",
+        "location": "76 FORSYTH ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Downtown",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39346,
+          33.75244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213898",
+        "crime_id": "8185000",
+        "offense_id": "150451497",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "14:45:00",
+        "beat": "511",
+        "location": "73 PEACHTREE ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Downtown",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3901,
+          33.75251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213902",
+        "crime_id": "8185004",
+        "offense_id": "150451678",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "14:00:00",
+        "beat": "612",
+        "location": "886 STALLINGS AVE SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Day",
+        "neighborhood": "East Atlanta",
+        "crime": "ROBBERY",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.33211,
+          33.73
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213905",
+        "crime_id": "8185007",
+        "offense_id": "150451808",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "17:10:00",
+        "beat": "408",
+        "location": "1829 CAMPBELLTON RD SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Venetian Hills",
+        "crime": "AGG ASSAULT",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.44863,
+          33.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213913",
+        "crime_id": "8185015",
+        "offense_id": "150452294",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "20:00:00",
+        "beat": "609",
+        "location": "1253 CAROLINE ST NE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Eve",
+        "neighborhood": "Edgewood",
+        "crime": "ROBBERY",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3474,
+          33.75823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213914",
+        "crime_id": "8185016",
+        "offense_id": "150452302",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "19:50:00",
+        "beat": "512",
+        "location": "232 FORSYTH ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Downtown",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39388,
+          33.74686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213917",
+        "crime_id": "8185019",
+        "offense_id": "150452437",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "21:25:00",
+        "beat": "509",
+        "location": "235 PEACHTREE ST NE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Eve",
+        "neighborhood": "Downtown",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38702,
+          33.76044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213921",
+        "crime_id": "8185023",
+        "offense_id": "150452646",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "23:05:00",
+        "beat": "311",
+        "location": "2874 WATERS RD SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Glenrose Heights",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39425,
+          33.67651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213922",
+        "crime_id": "8185024",
+        "offense_id": "150452658",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "23:18:00",
+        "beat": "511",
+        "location": "15 PEACHTREE ST SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Downtown",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38986,
+          33.75399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213925",
+        "crime_id": "8185027",
+        "offense_id": "150452733",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "23:30:00",
+        "beat": "308",
+        "location": "1177 CONSTITUTION RD SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Leila Valley",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35248,
+          33.69242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213926",
+        "crime_id": "8185028",
+        "offense_id": "150452733",
+        "rpt_date": "02/14/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "23:30:00",
+        "beat": "308",
+        "location": "1177 CONSTITUTION RD SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Leila Valley",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35248,
+          33.69242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213951",
+        "crime_id": "8399678",
+        "offense_id": "150461281",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-14 00:00:00",
+        "occur_time": "01:00:00",
+        "beat": "502",
+        "location": "188 14TH ST NE @COLONY SQUARE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Unk",
+        "neighborhood": "Midtown",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38139,
+          33.78663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213929",
+        "crime_id": "8399656",
+        "offense_id": "150460120",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "00:35:00",
+        "beat": "308",
+        "location": "930 NEW TOWN CIR SE",
+        "MaxOfnum_victims": "3",
+        "Shift": "Morn",
+        "neighborhood": "Thomasville Heights",
+        "crime": "ROBBERY",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35933,
+          33.7084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213931",
+        "crime_id": "8399658",
+        "offense_id": "150460190",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "01:04:00",
+        "beat": "104",
+        "location": "1021 FAIR ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Ashview Heights",
+        "crime": "ROBBERY",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4213,
+          33.74929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213932",
+        "crime_id": "8399659",
+        "offense_id": "150460222",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "00:20:00",
+        "beat": "306",
+        "location": "1400 MURPHY AVE SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Sylvan Hills",
+        "crime": "ROBBERY",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42279,
+          33.71572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213933",
+        "crime_id": "8399660",
+        "offense_id": "150460223",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "01:26:00",
+        "beat": "109",
+        "location": "2555 DONALD LEE HOLLOWELL PKWY NW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Center Hill",
+        "crime": "AGG ASSAULT",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.46999,
+          33.77561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213934",
+        "crime_id": "8399661",
+        "offense_id": "150460223",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "01:26:00",
+        "beat": "109",
+        "location": "2555 DONALD LEE HOLLOWELL PKWY NW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Center Hill",
+        "crime": "AGG ASSAULT",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.46999,
+          33.77561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213935",
+        "crime_id": "8399662",
+        "offense_id": "150460438",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "03:08:00",
+        "beat": "306",
+        "location": "2050 SYLVAN RD SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Sylvan Hills",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.41798,
+          33.69852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213938",
+        "crime_id": "8399665",
+        "offense_id": "150460570",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "03:00:00",
+        "beat": "410",
+        "location": "CAMPBELLTON RD SW / MYRTLE DR SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Campbellton Road",
+        "crime": "AGG ASSAULT",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.45527,
+          33.70101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213942",
+        "crime_id": "8399669",
+        "offense_id": "150460953",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "10:00:00",
+        "beat": "111",
+        "location": "213 FAIRBURN RD NW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Adamsville",
+        "crime": "AGG ASSAULT",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.50424,
+          33.76136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213946",
+        "crime_id": "8399673",
+        "offense_id": "150461108",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "11:45:00",
+        "beat": "311",
+        "location": "2900 GRAND AVE SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Hammond Park",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40207,
+          33.6754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213955",
+        "crime_id": "8399682",
+        "offense_id": "150461351",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "14:00:00",
+        "beat": "308",
+        "location": "900 NEW TOWN CIR SE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Thomasville Heights",
+        "crime": "ROBBERY",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.36007,
+          33.70837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213962",
+        "crime_id": "8399689",
+        "offense_id": "150461534",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "16:00:00",
+        "beat": "401",
+        "location": "850 OAK ST SW @WEST END MALL",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "West End",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4168,
+          33.74057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213973",
+        "crime_id": "8399700",
+        "offense_id": "150462032",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "19:25:00",
+        "beat": "402",
+        "location": "1488 BEECHER ST SW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Eve",
+        "neighborhood": "Oakland City",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.43636,
+          33.73316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213977",
+        "crime_id": "8399704",
+        "offense_id": "150462155",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "20:15:00",
+        "beat": "111",
+        "location": "2980 DELMAR LN NW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Eve",
+        "neighborhood": "NULL",
+        "crime": "ROBBERY",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.48481,
+          33.75517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213980",
+        "crime_id": "8399707",
+        "offense_id": "150462261",
+        "rpt_date": "02/15/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "21:30:00",
+        "beat": "405",
+        "location": "2640 MARTIN L KING JR DR SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Harland Terrace",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.47425,
+          33.75381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213984",
+        "crime_id": "8399711",
+        "offense_id": "150462433",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-15 00:00:00",
+        "occur_time": "20:00:00",
+        "beat": "409",
+        "location": "3194 PARC CT SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Unk",
+        "neighborhood": "Southwest",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.49582,
+          33.70008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213989",
+        "crime_id": "8399716",
+        "offense_id": "150470273",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "01:00:00",
+        "beat": "607",
+        "location": "1575 MORELAND AVE SE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Custer/McDonough/Guice",
+        "crime": "AGG ASSAULT",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35004,
+          33.7118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213990",
+        "crime_id": "8399717",
+        "offense_id": "150470307",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "02:41:00",
+        "beat": "607",
+        "location": "761 WOODLAND AVE SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Ormewood Park",
+        "crime": "AGG ASSAULT",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35164,
+          33.73356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213991",
+        "crime_id": "8399718",
+        "offense_id": "150470307",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "02:41:00",
+        "beat": "607",
+        "location": "761 WOODLAND AVE SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Ormewood Park",
+        "crime": "AGG ASSAULT",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35164,
+          33.73356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213993",
+        "crime_id": "8399720",
+        "offense_id": "150470689",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "07:50:00",
+        "beat": "512",
+        "location": "215 FORSYTH ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Downtown",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3968,
+          33.74892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "213998",
+        "crime_id": "8399725",
+        "offense_id": "150470961",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "09:40:00",
+        "beat": "211",
+        "location": "517 MAIN ST NE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Lindbergh/Morosgo",
+        "crime": "ROBBERY",
+        "zone": "2",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37031,
+          33.8225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214013",
+        "crime_id": "8399740",
+        "offense_id": "150471273",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "12:00:00",
+        "beat": "309",
+        "location": "2496 SPRING GARDEN DR SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Perkerson",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.41085,
+          33.68627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214020",
+        "crime_id": "8399747",
+        "offense_id": "150471426",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "00:01:00",
+        "beat": "202",
+        "location": "966 W PACES FERRY RD NW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "West Paces Ferry/Northside",
+        "crime": "AGG ASSAULT",
+        "zone": "2",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.41628,
+          33.84874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214025",
+        "crime_id": "8399752",
+        "offense_id": "150471651",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "16:07:00",
+        "beat": "305",
+        "location": "102 GAMMEN AVE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "South Atlanta",
+        "crime": "ROBBERY",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38474,
+          33.71852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214026",
+        "crime_id": "8399753",
+        "offense_id": "150471715",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "16:30:00",
+        "beat": "109",
+        "location": "980 HOLLYWOOD RD NW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Grove Park",
+        "crime": "ROBBERY",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.45638,
+          33.78164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214028",
+        "crime_id": "8399755",
+        "offense_id": "150471815",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "17:17:00",
+        "beat": "114",
+        "location": "3471 ADKINS RD NW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Eve",
+        "neighborhood": "Fairburn Heights",
+        "crime": "AGG ASSAULT",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.50477,
+          33.77367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214029",
+        "crime_id": "8399756",
+        "offense_id": "150471815",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "17:17:00",
+        "beat": "114",
+        "location": "3471 ADKINS RD NW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Eve",
+        "neighborhood": "Fairburn Heights",
+        "crime": "AGG ASSAULT",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.50477,
+          33.77367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214033",
+        "crime_id": "8399760",
+        "offense_id": "150472062",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "18:30:00",
+        "beat": "407",
+        "location": "320 FAIRBURN RD SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Fairburn Mays",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.50858,
+          33.7451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214035",
+        "crime_id": "8399762",
+        "offense_id": "150472122",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "19:35:00",
+        "beat": "402",
+        "location": "1400 DONNELLY AVE SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "West End",
+        "crime": "AGG ASSAULT",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.43137,
+          33.73586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214040",
+        "crime_id": "8399767",
+        "offense_id": "150472389",
+        "rpt_date": "02/16/2015",
+        "occur_date": "2015-02-16 00:00:00",
+        "occur_time": "22:42:00",
+        "beat": "211",
+        "location": "630 MOROSGO DRIVE NE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Lindbergh/Morosgo",
+        "crime": "ROBBERY",
+        "zone": "2",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.36727,
+          33.82361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214077",
+        "crime_id": "8399804",
+        "offense_id": "150481767",
+        "rpt_date": "02/17/2015",
+        "occur_date": "2015-02-17 00:00:00",
+        "occur_time": "16:04:00",
+        "beat": "409",
+        "location": "3350 MOUNT GILEAD RD SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Southwest",
+        "crime": "AGG ASSAULT",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.49859,
+          33.6982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214083",
+        "crime_id": "8399810",
+        "offense_id": "150481991",
+        "rpt_date": "02/17/2015",
+        "occur_date": "2015-02-17 00:00:00",
+        "occur_time": "16:50:00",
+        "beat": "313",
+        "location": "377 BLAIR VILLA DR SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Eve",
+        "neighborhood": "Blair Villa/Poole Creek",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37826,
+          33.6579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214091",
+        "crime_id": "8399818",
+        "offense_id": "150482507",
+        "rpt_date": "02/17/2015",
+        "occur_date": "2015-02-17 00:00:00",
+        "occur_time": "19:15:00",
+        "beat": "205",
+        "location": "1920 HOWELL MILL RD",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Wildwood (NPU-C)",
+        "crime": "ROBBERY",
+        "zone": "2",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.41284,
+          33.80733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214094",
+        "crime_id": "8399821",
+        "offense_id": "150482703",
+        "rpt_date": "02/17/2015",
+        "occur_date": "2015-02-17 00:00:00",
+        "occur_time": "18:45:00",
+        "beat": "409",
+        "location": "3099 PANTHER TRL SW @APS THERRELL HS",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Southwest",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.48914,
+          33.69931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214096",
+        "crime_id": "8399823",
+        "offense_id": "150482746",
+        "rpt_date": "02/17/2015",
+        "occur_date": "2015-02-17 00:00:00",
+        "occur_time": "19:55:00",
+        "beat": "307",
+        "location": "1695 PRYOR RD SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Betmar LaVilla",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39374,
+          33.70894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214097",
+        "crime_id": "8399824",
+        "offense_id": "150482754",
+        "rpt_date": "02/17/2015",
+        "occur_date": "2015-02-17 00:00:00",
+        "occur_time": "21:00:00",
+        "beat": "410",
+        "location": "1890 MYRTLE DR SW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Eve",
+        "neighborhood": "Campbellton Road",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4551,
+          33.70378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214098",
+        "crime_id": "8399825",
+        "offense_id": "150482774",
+        "rpt_date": "02/17/2015",
+        "occur_date": "2015-02-17 00:00:00",
+        "occur_time": "20:30:00",
+        "beat": "409",
+        "location": "2909 CAMPBELLTON RD SW @CASCADE PINES APTS",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Southwest",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.48473,
+          33.70025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214102",
+        "crime_id": "8399829",
+        "offense_id": "150490251",
+        "rpt_date": "02/18/2015",
+        "occur_date": "2015-02-18 00:00:00",
+        "occur_time": "01:49:00",
+        "beat": "606",
+        "location": "446 BILL KENNEDY WAY SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Ormewood Park",
+        "crime": "AGG ASSAULT",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35809,
+          33.74045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214103",
+        "crime_id": "8399830",
+        "offense_id": "150490251",
+        "rpt_date": "02/18/2015",
+        "occur_date": "2015-02-18 00:00:00",
+        "occur_time": "01:49:00",
+        "beat": "606",
+        "location": "446 BILL KENNEDY WAY SE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Ormewood Park",
+        "crime": "AGG ASSAULT",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35809,
+          33.74045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214140",
+        "crime_id": "8399867",
+        "offense_id": "150492554",
+        "rpt_date": "02/18/2015",
+        "occur_date": "2015-02-18 00:00:00",
+        "occur_time": "18:00:00",
+        "beat": "302",
+        "location": "I-75-85 SB EXPY SW / UNIVERSITY AVE SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Pittsburgh",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39509,
+          33.72201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214143",
+        "crime_id": "8399870",
+        "offense_id": "150492657",
+        "rpt_date": "02/18/2015",
+        "occur_date": "2015-02-18 00:00:00",
+        "occur_time": "18:41:00",
+        "beat": "405",
+        "location": "2244 WINGATE ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Florida Heights",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.46156,
+          33.74857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214146",
+        "crime_id": "8399873",
+        "offense_id": "150492855",
+        "rpt_date": "02/18/2015",
+        "occur_date": "2015-02-18 00:00:00",
+        "occur_time": "19:20:00",
+        "beat": "411",
+        "location": "2841 GREENBRIAR PKWY SW @GREENBRIAR MALL",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Greenbriar",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.49773,
+          33.68677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214148",
+        "crime_id": "8399875",
+        "offense_id": "150492896",
+        "rpt_date": "02/18/2015",
+        "occur_date": "2015-02-18 00:00:00",
+        "occur_time": "16:00:00",
+        "beat": "312",
+        "location": "394 SUSY GRIFFIN RD",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Orchard Knob",
+        "crime": "ROBBERY",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3772,
+          33.67328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214151",
+        "crime_id": "8399878",
+        "offense_id": "150492965",
+        "rpt_date": "02/18/2015",
+        "occur_date": "2015-02-18 00:00:00",
+        "occur_time": "20:20:00",
+        "beat": "509",
+        "location": "477 PEACHTREE ST NE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Downtown",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38524,
+          33.76764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214153",
+        "crime_id": "8399880",
+        "offense_id": "150493051",
+        "rpt_date": "02/18/2015",
+        "occur_date": "2015-02-18 00:00:00",
+        "occur_time": "21:11:00",
+        "beat": "603",
+        "location": "683 BOULEVARD NE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Old Fourth Ward",
+        "crime": "ROBBERY",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37078,
+          33.7732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214158",
+        "crime_id": "8399885",
+        "offense_id": "150500348",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "02:00:00",
+        "beat": "509",
+        "location": "568 SPRING ST NW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Downtown",
+        "crime": "AGG ASSAULT",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38898,
+          33.76977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214163",
+        "crime_id": "8399890",
+        "offense_id": "150500880",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "08:20:00",
+        "beat": "113",
+        "location": "1613 JACKSON WAY NW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Lincoln Homes",
+        "crime": "ROBBERY",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.47566,
+          33.79871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214168",
+        "crime_id": "8399895",
+        "offense_id": "150501272",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "10:51:00",
+        "beat": "102",
+        "location": "809 MAGNOLIA WAY NW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Vine City",
+        "crime": "AGG ASSAULT",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.41411,
+          33.75823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214173",
+        "crime_id": "8399900",
+        "offense_id": "150501512",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "12:12:00",
+        "beat": "408",
+        "location": "1829 CAMPBELLTON RD SW",
+        "MaxOfnum_victims": "NULL",
+        "Shift": "Day",
+        "neighborhood": "Venetian Hills",
+        "crime": "HOMICIDE",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.44863,
+          33.71
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214180",
+        "crime_id": "8399907",
+        "offense_id": "150501913",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "15:10:00",
+        "beat": "307",
+        "location": "1700 LAKEWOOD AVE SE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Lakewood Heights",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37972,
+          33.70776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214186",
+        "crime_id": "8399913",
+        "offense_id": "150502480",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "17:00:00",
+        "beat": "511",
+        "location": "30 ALABAMA ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Downtown",
+        "crime": "AGG ASSAULT",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38955,
+          33.7521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214190",
+        "crime_id": "8399917",
+        "offense_id": "150502665",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "18:45:00",
+        "beat": "303",
+        "location": "656 PRYOR ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Mechanicsville",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39438,
+          33.73699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214193",
+        "crime_id": "8399920",
+        "offense_id": "150502783",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "19:15:00",
+        "beat": "313",
+        "location": "3627 FORREST PARK RD",
+        "MaxOfnum_victims": "3",
+        "Shift": "Eve",
+        "neighborhood": "South River Gardens",
+        "crime": "ROBBERY",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.35694,
+          33.6546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214202",
+        "crime_id": "8399929",
+        "offense_id": "150503213",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "22:25:00",
+        "beat": "305",
+        "location": "114 MOURY AVE SE",
+        "MaxOfnum_victims": "3",
+        "Shift": "Eve",
+        "neighborhood": "South Atlanta",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38808,
+          33.71261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214203",
+        "crime_id": "8399930",
+        "offense_id": "150503213",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "22:25:00",
+        "beat": "305",
+        "location": "114 MOURY AVE SE",
+        "MaxOfnum_victims": "3",
+        "Shift": "Eve",
+        "neighborhood": "South Atlanta",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38808,
+          33.71261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214206",
+        "crime_id": "8399933",
+        "offense_id": "150503275",
+        "rpt_date": "02/19/2015",
+        "occur_date": "2015-02-19 00:00:00",
+        "occur_time": "22:45:00",
+        "beat": "301",
+        "location": "987 METROPOLITAN PKWY SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Adair Park",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40828,
+          33.72798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214207",
+        "crime_id": "8399934",
+        "offense_id": "150510249",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "01:30:00",
+        "beat": "102",
+        "location": "176 ELECTRIC AVE NW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Vine City",
+        "crime": "ROBBERY",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40443,
+          33.7595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214217",
+        "crime_id": "8399944",
+        "offense_id": "150511007",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "08:46:00",
+        "beat": "603",
+        "location": "371 BOULEVARD",
+        "MaxOfnum_victims": "2",
+        "Shift": "Day",
+        "neighborhood": "Old Fourth Ward",
+        "crime": "ROBBERY",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37155,
+          33.76454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214222",
+        "crime_id": "8399949",
+        "offense_id": "150511312",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "10:52:00",
+        "beat": "310",
+        "location": "2637 OLD HAPEVILLE RD SW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Day",
+        "neighborhood": "Browns Mill Park",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39417,
+          33.68294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214223",
+        "crime_id": "8399950",
+        "offense_id": "150511312",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "10:52:00",
+        "beat": "310",
+        "location": "2637 OLD HAPEVILLE RD SW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Day",
+        "neighborhood": "Browns Mill Park",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39417,
+          33.68294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214246",
+        "crime_id": "8399973",
+        "offense_id": "150512105",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "16:00:00",
+        "beat": "307",
+        "location": "1483 ARTHUR LANGFORD JR. PLACE SW  #A9B1",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Joyland",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39789,
+          33.71097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214254",
+        "crime_id": "8399981",
+        "offense_id": "150512697",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "19:00:00",
+        "beat": "101",
+        "location": "159 EUHARLEE ST SW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Eve",
+        "neighborhood": "Atlanta University Center",
+        "crime": "ROBBERY",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.41621,
+          33.75041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214260",
+        "crime_id": "8399987",
+        "offense_id": "150513055",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "21:29:00",
+        "beat": "507",
+        "location": "74 NORTHSIDE DR SW",
+        "MaxOfnum_victims": "3",
+        "Shift": "Eve",
+        "neighborhood": "Castleberry Hill",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40252,
+          33.75267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214261",
+        "crime_id": "8399988",
+        "offense_id": "150513060",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "21:33:00",
+        "beat": "409",
+        "location": "2929 LANDRUM DR SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Southwest",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.48388,
+          33.70623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214262",
+        "crime_id": "8399989",
+        "offense_id": "150513132",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "22:00:00",
+        "beat": "505",
+        "location": "691 PENN AVE NE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Midtown",
+        "crime": "ROBBERY",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37856,
+          33.77338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214263",
+        "crime_id": "8399990",
+        "offense_id": "150513139",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "21:45:00",
+        "beat": "501",
+        "location": "1100 HOWELL MILL RD NW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Home Park",
+        "crime": "AGG ASSAULT",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.41208,
+          33.7858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214266",
+        "crime_id": "8399993",
+        "offense_id": "150513203",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "22:29:00",
+        "beat": "611",
+        "location": "2315 GLENWOOD AVE SE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "East Lake",
+        "crime": "ROBBERY",
+        "zone": "6",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.31149,
+          33.73984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214269",
+        "crime_id": "8399996",
+        "offense_id": "150513326",
+        "rpt_date": "02/20/2015",
+        "occur_date": "2015-02-20 00:00:00",
+        "occur_time": "23:30:00",
+        "beat": "401",
+        "location": "711 LEE ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "West End",
+        "crime": "ROBBERY",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.41421,
+          33.73528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214272",
+        "crime_id": "8400000",
+        "offense_id": "150520151",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "00:50:00",
+        "beat": "505",
+        "location": "763 PENN AVE NE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Midtown",
+        "crime": "AGG ASSAULT",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.37847,
+          33.77549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214273",
+        "crime_id": "8400001",
+        "offense_id": "150520208",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "01:05:00",
+        "beat": "311",
+        "location": "377 MOUNT ZION RD SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Hammond Park",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40192,
+          33.67316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214278",
+        "crime_id": "8400006",
+        "offense_id": "150520664",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "04:30:00",
+        "beat": "401",
+        "location": "425 HOLDERNESS ST.",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "West End",
+        "crime": "AGG ASSAULT",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42719,
+          33.74325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214281",
+        "crime_id": "8400009",
+        "offense_id": "150520894",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "07:50:00",
+        "beat": "107",
+        "location": "2025 DETROIT AVE NW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Day",
+        "neighborhood": "Grove Park",
+        "crime": "AGG ASSAULT",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.45339,
+          33.76723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214282",
+        "crime_id": "8400010",
+        "offense_id": "150520894",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "07:50:00",
+        "beat": "107",
+        "location": "2025 DETROIT AVE NW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Day",
+        "neighborhood": "Grove Park",
+        "crime": "AGG ASSAULT",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.45339,
+          33.76723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214290",
+        "crime_id": "8400018",
+        "offense_id": "150521228",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "11:29:00",
+        "beat": "501",
+        "location": "231 18TH ST NW",
+        "MaxOfnum_victims": "3",
+        "Shift": "Day",
+        "neighborhood": "Atlantic Station",
+        "crime": "AGG ASSAULT",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39544,
+          33.79275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214291",
+        "crime_id": "8400019",
+        "offense_id": "150521228",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "11:29:00",
+        "beat": "501",
+        "location": "231 18TH ST NW",
+        "MaxOfnum_victims": "3",
+        "Shift": "Day",
+        "neighborhood": "Atlantic Station",
+        "crime": "AGG ASSAULT",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39544,
+          33.79275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214296",
+        "crime_id": "8400024",
+        "offense_id": "150521267",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "11:00:00",
+        "beat": "306",
+        "location": "2001 SYLVAN RD SW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Day",
+        "neighborhood": "Sylvan Hills",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4184,
+          33.69981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214297",
+        "crime_id": "8400025",
+        "offense_id": "150521267",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "11:00:00",
+        "beat": "306",
+        "location": "2001 SYLVAN RD SW",
+        "MaxOfnum_victims": "2",
+        "Shift": "Day",
+        "neighborhood": "Sylvan Hills",
+        "crime": "AGG ASSAULT",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4184,
+          33.69981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214300",
+        "crime_id": "8400028",
+        "offense_id": "150521386",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "12:45:00",
+        "beat": "301",
+        "location": "717 UNIVERSITY AVE SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Day",
+        "neighborhood": "Adair Park",
+        "crime": "ROBBERY",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4108,
+          33.72228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214322",
+        "crime_id": "8400050",
+        "offense_id": "150522106",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "17:35:00",
+        "beat": "404",
+        "location": "1732 BEECHER ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Cascade Avenue/Road",
+        "crime": "AGG ASSAULT",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4442,
+          33.73348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214326",
+        "crime_id": "8400054",
+        "offense_id": "150522242",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "18:20:00",
+        "beat": "211",
+        "location": "3115 PIEDMONT RD NE",
+        "MaxOfnum_victims": "3",
+        "Shift": "Eve",
+        "neighborhood": "Peachtree Park",
+        "crime": "ROBBERY",
+        "zone": "2",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.36947,
+          33.84156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214329",
+        "crime_id": "8400057",
+        "offense_id": "150522286",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "18:50:00",
+        "beat": "410",
+        "location": "2328 CAMPBELLTON RD SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Campbellton Road",
+        "crime": "AGG ASSAULT",
+        "zone": "4",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4634,
+          33.70439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214334",
+        "crime_id": "8400062",
+        "offense_id": "150522599",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "20:15:00",
+        "beat": "501",
+        "location": "375 18TH ST NW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Atlantic Station",
+        "crime": "AGG ASSAULT",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.40099,
+          33.79163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214335",
+        "crime_id": "8400063",
+        "offense_id": "150522653",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "20:30:00",
+        "beat": "302",
+        "location": "1040 HUBBARD ST SW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Pittsburgh",
+        "crime": "ROBBERY",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4023,
+          33.72643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214337",
+        "crime_id": "8400065",
+        "offense_id": "150522919",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "22:50:00",
+        "beat": "308",
+        "location": "680 NEW TOWN CIR SE",
+        "MaxOfnum_victims": "1",
+        "Shift": "Eve",
+        "neighborhood": "Thomasville Heights",
+        "crime": "ROBBERY",
+        "zone": "3",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.36412,
+          33.7067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214338",
+        "crime_id": "8400066",
+        "offense_id": "150522922",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "23:04:00",
+        "beat": "509",
+        "location": "477 PEACHTREE ST NE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Downtown",
+        "crime": "AGG ASSAULT",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38538,
+          33.76744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214339",
+        "crime_id": "8400067",
+        "offense_id": "150522922",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "23:04:00",
+        "beat": "509",
+        "location": "477 PEACHTREE ST NE",
+        "MaxOfnum_victims": "2",
+        "Shift": "Morn",
+        "neighborhood": "Downtown",
+        "crime": "AGG ASSAULT",
+        "zone": "5",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38538,
+          33.76744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "214340",
+        "crime_id": "8400068",
+        "offense_id": "150522929",
+        "rpt_date": "02/21/2015",
+        "occur_date": "2015-02-21 00:00:00",
+        "occur_time": "23:00:00",
+        "beat": "109",
+        "location": "2555 DONALD LEE HOLLOWELL PKWY NW",
+        "MaxOfnum_victims": "1",
+        "Shift": "Morn",
+        "neighborhood": "Center Hill",
+        "crime": "AGG ASSAULT",
+        "zone": "1",
+        "violent": "violent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.46999,
+          33.77561
+        ]
+      }
+    }
+  ]
+}

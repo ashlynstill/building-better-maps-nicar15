@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset=utf-8 />
+  	<title>NICAR2015 | Making maps with Javascript</title>
+  	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+  	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+  	<script type="text/javascript" src="data/beats.js"></script>
+  	<style>
+	    body {
+	    	margin:0;
+	    	padding:0;
+	    }
+	    
+	    #map { 
+	    	position:absolute;
+	    	top:0;
+	    	bottom:0;
+	    	width:100%;
+	    }
+
+	    .info { 
+	    	position:absolute;
+	    	top:20px;
+	    	right:20px;
+	    	width:300px;
+	    	padding:10px;
+	    	background-color:#fff;
+	    	border:1px solid #ccc;
+	    	z-index:1000;
+	    }
+	    .leaflet-popup-content h3, .leaflet-popup-content p{
+	    	margin:0px;
+	    }
+	    .leaflet-popup-content p {
+	    	font-size:12px;
+	    }
+	    .legend-icon {
+	    	padding:0px 5px;
+	    	margin-bottom:-2.5em;
+	    }
+  	</style>
+</head>
+
+<body>
+	
+
+
+	<div id="map"> </div>
+
+
+
+
+<script>
+	L.mapbox.accessToken = 'pk.eyJ1IjoiYXNobHluc3RpbGwiLCJhIjoiVnhhZkV6RSJ9.LSVlYbjqq5-5t_bZ6Tpyvw';
+		
+	var map = L.map('map', {center: [33.7550,-84.3900], zoom: 12, minZoom: 11, maxZoom: 16});
+		L.mapbox.tileLayer('mapbox.light').addTo(map);
+
+
+	function getColor(d) {
+
+	    return d == undefined ? '#f2ada7' :
+	    	d > 0.75 ? '#770702' :
+	        d > 0.5  ? '#a6261e' :
+	        d > 0.25  ? '#c95144' :
+	        		'#e37e73';
+	}
+
+	// legend
+
+	var info = L.control();
+
+	info.onAdd = function(map) {
+	    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+	    this.insertText();
+	    return this._div;
+	};
+
+	info.insertText = function(map) {
+		this._div.innerHTML = '<h1>Crime in Atlanta</h1>'
+			+ '<p>This map shows crime data from the Atlanta Police Department, from Jan 2009 - Feb 2015. The colors of the beats indicate the number of crimes per capita in that beat. The markers indicate a violent crime incident from the last week of reported data.</p><hr/>'
+	    	+ '<h4>Hover over a beat</h4>';
+		return this._div
+	}
+
+	// method that we will use to update the control based on feature properties passed
+	info.update = function(props) {
+		this._div.children[3].innerHTML = '<h4>' +  (props ? 'Zone ' + props.zone + ', Beat '+ props.beat + '</h4><b>Crimes per capita:</b> ' + (props.total_crime/props.population).toFixed(2)
+	        : 'Hover over a beat</h4>');
+	};
+
+	info.addTo(map);
+
+
+
+	// beats comes from the 'beats.js' script included above
+	var beatsLayer = L.geoJson(beats,  {
+	    style: beatsStyle,
+	    onEachFeature: onEachFeature
+	}).addTo(map);
+
+	
+	var crimeLayer = L.mapbox.featureLayer()
+		.loadURL('data/crime.geojson')
+		.on('layeradd', function(e){
+			var marker = e.layer,
+	        feature = marker.feature;
+
+		    // Create custom popup content
+		    var popupContent = '<h3>'+feature.properties.crime+'</h3><p>'+feature.properties.location+'</p><p>'+feature.properties.occur_date+'</p>';
+
+		    // http://leafletjs.com/reference.html#popup
+		    marker.bindPopup(popupContent,{
+		        closeButton: true,
+		        minWidth: 150
+		    })
+		}).addTo(map);
+
+
+	function beatsStyle(feature) {
+	  	// calculate incidents per capita
+	  	var percap = feature.properties.total_crime/feature.properties.population;
+
+	    return {
+	        weight: 1,
+	        opacity: 1,
+	        color: '#eee',
+	        fillOpacity: 0.75,
+	        fillColor: getColor(percap)
+	    };
+	}
+
+	function highlightFeature(e) {
+	    var layer = e.target;
+
+	    layer.setStyle({
+	        weight: 3,
+	        color: '#fff',
+	        opacity:1,
+	        fillOpacity: 0.9
+	    });
+
+	    if (!L.Browser.ie && !L.Browser.opera) {
+	        layer.bringToFront();
+	    }
+
+	    info.update(layer.feature.properties);
+	}
+
+	function resetHighlight(e) {
+	    beatsLayer.resetStyle(e.target);
+	    info.update();
+	}
+
+	function zoomToFeature(e) {
+	    map.fitBounds(e.target.getBounds());
+	    crimeLayer.addTo(map);
+	}
+
+	function onEachFeature(feature, layer) {
+	    layer.on({
+	        mouseover: highlightFeature,
+	        mouseout: resetHighlight,
+	        click: zoomToFeature
+	    });
+	}
+
+
+
+
+</script>
+</body>
+</html>
