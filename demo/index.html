@@ -29,15 +29,21 @@
 	    	border:1px solid #ccc;
 	    	z-index:1000;
 	    }
+	    .legend label,
+		.legend span {
+		  display:block;
+		  float:left;
+		  height:15px;
+		  width:25%;
+		  text-align:center;
+		  font-size:9px;
+		  color:#808080;
+		}
 	    .leaflet-popup-content h3, .leaflet-popup-content p{
 	    	margin:0px;
 	    }
 	    .leaflet-popup-content p {
 	    	font-size:12px;
-	    }
-	    .legend-icon {
-	    	padding:0px 5px;
-	    	margin-bottom:-2.5em;
 	    }
   	</style>
 </head>
@@ -60,8 +66,7 @@
 
 	function getColor(d) {
 
-	    return d == undefined ? '#f2ada7' :
-	    	d > 0.75 ? '#770702' :
+	    return d > 0.75 ? '#770702' :
 	        d > 0.5  ? '#a6261e' :
 	        d > 0.25  ? '#c95144' :
 	        		'#e37e73';
@@ -80,13 +85,22 @@
 	info.insertText = function(map) {
 		this._div.innerHTML = '<h1>Crime in Atlanta</h1>'
 			+ '<p>This map shows crime data from the Atlanta Police Department, from Jan 2009 - Feb 2015. The colors of the beats indicate the number of crimes per capita in that beat. The markers indicate a violent crime incident from the last week of reported data.</p><hr/>'
-	    	+ '<h4>Hover over a beat</h4>';
+	    	+'<p>Crime incidents per capita</p><div class="legend clearfix"><span style="background:#e37e73;"></span>'
+    		+'<span style="background:#c95144;"></span>'
+    		+'<span style="background:#a6261e;"></span>'
+    		+'<span style="background:#770702;"></span>'
+    		+'<label> < 0.24</label>'
+    		+'<label>0.25-0.49</label>'
+    		+'<label>0.5-0.74</label>'
+    		+'<label> > 0.75</label>'
+    		+'</div><hr/>'
+    		+ '<h4>Hover over a beat</h4>';
 		return this._div
 	}
 
 	// method that we will use to update the control based on feature properties passed
 	info.update = function(props) {
-		this._div.children[3].innerHTML = '<h4>' +  (props ? 'Zone ' + props.zone + ', Beat '+ props.beat + '</h4><b>Crimes per capita:</b> ' + (props.total_crime/props.population).toFixed(2)
+		this._div.children[this._div.children.length-1].innerHTML = '<h4>' +  (props ? 'Zone ' + props.zone + ', Beat '+ props.beat + '</h4><b>Crimes per capita:</b> ' + (props.total_crime/props.population).toFixed(2)
 	        : 'Hover over a beat</h4>');
 	};
 

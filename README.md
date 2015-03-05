@@ -230,6 +230,16 @@ Mapbox & Leaflet come with some nice legend and info box dom utilities out of th
     	border:1px solid #ccc;
     	z-index:1000;
     }
+    .legend label,
+	.legend span {
+	  display:block;
+	  float:left;
+	  height:15px;
+	  width:25%;
+	  text-align:center;
+	  font-size:9px;
+	  color:#808080;
+	}
     ````
 
 2. Now we need to create the `.info` div with Javascript, and write two methods on the info box: one function that creates the div in the DOM when the L.control() object is added to the map object, and another function that inserts starting text after the div has been created. Then, at the end, you have to add it to the map.
@@ -247,10 +257,19 @@ Mapbox & Leaflet come with some nice legend and info box dom utilities out of th
 
 	info.insertText = function(map) {
 		this._div.innerHTML = '<h1>Crime in Atlanta</h1>'
-			+ '<p>This map shows crime data from the Atlanta Police Department, from Jan 2009 - Feb 2015. The colors of the beats indicate the number of crimes per capita in that beat.</p><hr/>'
-	    	+ '<h4>Hover over a beat</h4>';
+			+ '<p>This map shows crime data from the Atlanta Police Department, from Jan 2009 - Feb 2015. The colors of the beats indicate the number of crimes per capita in that beat. The markers indicate a violent crime incident from the last week of reported data.</p><hr/>'
+	    	+'<p>Crime incidents per capita</p><div class="legend clearfix"><span style="background:#e37e73;"></span>'
+    		+'<span style="background:#c95144;"></span>'
+    		+'<span style="background:#a6261e;"></span>'
+    		+'<span style="background:#770702;"></span>'
+    		+'<label> < 0.24</label>'
+    		+'<label>0.25-0.49</label>'
+    		+'<label>0.5-0.74</label>'
+    		+'<label> > 0.75</label>'
+    		+'</div><hr/>'
+    		+ '<h4>Hover over a beat</h4>';
 		return this._div
-	};
+	}
 
 	info.addTo(map); //add to map
 	````
@@ -264,7 +283,7 @@ Mapbox & Leaflet come with some nice legend and info box dom utilities out of th
 
 	// method that we will use to update the control based on feature properties passed
 	info.update = function(props) {
-		this._div.children[3].innerHTML = '<h4>' +  (props ? 'Zone ' + props.zone + ', Beat '+ props.beat + '</h4><b>Crimes per capita:</b> ' + (props.total_crime/props.population).toFixed(2)
+		this._div.children[this._div.children.length-1].innerHTML = '<h4>' +  (props ? 'Zone ' + props.zone + ', Beat '+ props.beat + '</h4><b>Crimes per capita:</b> ' + (props.total_crime/props.population).toFixed(2)
 	        : 'Hover over a beat</h4>');
 	};
 
