@@ -1,7 +1,5 @@
 # Building better maps with Mapbox, Leaflet and Javascript
 
-### Mapbox vs Leaflet? What's the difference?
-
 
 ## Getting started
 
