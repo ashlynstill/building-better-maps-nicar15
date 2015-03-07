@@ -19,12 +19,141 @@
 	    	width:100%;
 	    }
 
+	    #button {
+	    	position:absolute;
+	    	top:10px;
+	    	left:50px;
+	    	font-size:30px;
+	    }
+
+	    .info { 
+		    position:absolute;
+		    top:20px;
+		    right:20px;
+		    width:300px;
+		    padding:10px;
+		    background-color:#fff;
+		    border:1px solid #ccc;
+		    z-index:1000;
+		}
+
   	</style>
 </head>
 
 <body>
 
 
+<div id="map"></div>
+
+<button id="button" onclick="resetZoom()">click me</button>
+
+
+	<script>
+    	L.mapbox.accessToken = 'pk.eyJ1IjoiYXNobHluc3RpbGwiLCJhIjoiVnhhZkV6RSJ9.LSVlYbjqq5-5t_bZ6Tpyvw';
+
+    	var map = L.map('map', {center: [33.7550,-84.3900], zoom: 11, minZoom: 8 , maxZoom: 20});  //map variable to hold map object rendering inside #map div
+
+    	L.mapbox.tileLayer('mapbox.light').addTo(map);
+
+    	var info = L.control();
+
+		info.onAdd = function(map) {
+		    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info" once info control element is added to map
+		    this.insertText();  //call insertText() after div is created
+		    return this._div;
+		};
+
+		info.insertText = function(map) {
+		    this._div.innerHTML = '<h1>Crime in Atlanta</h1>'
+		        + '<p>This map shows crime data from the Atlanta Police Department, from Jan 2009 - Feb 2015. The colors of the beats indicate the number of crimes per capita in that beat.</p><hr/>'
+		        + '<h4>Hover over a beat</h4>';
+		    return this._div
+		};
+
+		info.update = function(props) {
+		    this._div.children[this._div.children.length-1].innerHTML = '<h4>' +  (props ? 'Zone ' + props.zone + ', Beat '+ props.beat + '</h4><b>Crimes per capita:</b> ' + (props.total_crime/props.population).toFixed(2)
+		        : 'Hover over a beat</h4>');
+		};
+
+
+		info.addTo(map); //add to map
+
+
+
+    	var beatsLayer = L.geoJson(beats, {
+    		style: beatsStyle,
+    		onEachFeature: onEachFeature
+    	}).addTo(map);
+
+    	function getColor(d) {
+		    return d > 0.75 ? '#770702' :
+		           d > 0.5  ? '#a6261e' :
+		           d > 0.25 ? '#c95144' :
+		                      '#e37e73';
+		}
+
+    	function beatsStyle(feature){
+    		var percap = feature.properties.total_crime/feature.properties.population;
+    		return {
+		        weight: 1,
+		        opacity: 1,
+		        color: '#eee',
+		        fillOpacity: 0.75,
+		        fillColor: getColor(percap)
+		    };
+    	};
+
+    	function onEachFeature(feature,layer){
+    		layer.on({
+    			mouseover: highlightFeature,
+    			mouseout: resetFeature,
+    			click: zoomToFeature
+    		});
+    	};
+
+    	function highlightFeature(e) {
+    		var layer = e.target;
+
+		    layer.setStyle({
+		        weight: 3,
+		        color: '#fff',
+		        opacity:1,
+		        fillOpacity: 0.9
+		    });
+
+		    if (!L.Browser.ie && !L.Browser.opera) {
+		        layer.bringToFront();   // for your changes to move to the front. doesn't play nice in all browsers
+		    }
+		    info.update(layer.feature.properties);
+    	};
+
+    	function resetFeature(e) {
+    		info.update();
+    		beatsLayer.resetStyle(e.target);
+    	};
+
+    	function zoomToFeature(e) {
+    		map.fitBounds(e.target.getBounds());
+    	};
+
+    	function resetZoom() {
+    		map.fitBounds(beatsLayer.getBounds());
+    	};
+
+
+
+
+
+
+
+	</script>
 
 </body>
 </html>
+
+
+
+
+
+
+
