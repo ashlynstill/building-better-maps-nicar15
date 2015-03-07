@@ -316,7 +316,7 @@ Mapbox & Leaflet come with some nice legend and info box dom utilities out of th
 
 Refresh your browser and roll over a few beats. You'll see the text in the info box change to show the data inside each feature. You can change the text to show whatever properties you wish in the `info.update` function.
 
-## Adding a second data layer
+## Adding a second data layer (bonus!)
 
 If you look in your data folder, you'll see that there's also a `crimes.geojson` file. This geojson contains data for each violent crime reported from the week of Feb 13-21, 2015 (the most recent week reported by the APD). Luckily, the APD geocodes this data, so we're going to mark each of the violent crimes from that week on our map.
 
@@ -329,6 +329,8 @@ If you look in your data folder, you'll see that there's also a `crimes.geojson`
 		.loadURL('data/crime.geojson')
 		.addTo(map);
 	````
+
+	**Since this layer is using `loadURL` to pull in data, you'll have to run a local server on your computer to see it render in the browser.**
 
 2. But just have markers on a map doesn't tell the user much. Lets add popups with data attributes to our markers in our crimeLayer function.
 
